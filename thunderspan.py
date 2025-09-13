@@ -58,25 +58,25 @@ def print_banner():
     """Menampilkan banner ThunderSpan Elite Extreme"""
     os.system('cls' if os.name == 'nt' else 'clear')
     banner = f"""
-{COLORS['RED']}╔══════════════════════════════════════════════════════════════════════════════╗
-{COLORS['RED']}║                                                                              ║
-{COLORS['RED']}║  {COLORS['PURPLE']}████████╗██╗  ██╗███╗   ██╗██████╗ ███████╗███████╗███████╗{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['PURPLE']}╚══██╔══╝██║  ██║████╗  ██║██╔══██╗██╔════╝██╔════╝██╔════╝{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['PURPLE']}   ██║   ███████║██╔██╗ ██║██║  ██║█████╗  ███████╗███████╗{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['PURPLE']}   ██║   ██╔══██║██║╚██╗██║██║  ██║██╔══╝  ╚════██║╚════██║{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['PURPLE']}   ██║   ██║  ██║██║ ╚████║██████╔╝███████╗███████║███████║{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['PURPLE']}   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚══════╝╚══════╝{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['RED']}███████╗██╗     ██╗███████╗████████╗███████╗ {COLORS['CYAN']}███████╗{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['RED']}██╔════╝██║     ██║██╔════╝╚══██╔══╝██╔════╝ {COLORS['CYAN']}██╔════╝{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['RED']}█████╗  ██║     ██║█████╗     ██║   █████╗   {COLORS['CYAN']}█████╗  {COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['RED']}██╔══╝  ██║     ██║██╔══╝     ██║   ██╔══╝   {COLORS['CYAN']}██╔══╝  {COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['RED']}███████╗███████╗██║███████╗   ██║   ███████╗ {COLORS['CYAN']}███████╗{COLORS['RED']}  ║
-{COLORS['RED']}║  {COLORS['RED']}╚══════╝╚══════╝╚═╝╚══════╝   ╚═╝   ╚══════╝ {COLORS['CYAN']}╚══════╝{COLORS['RED']}  ║
-{COLORS['RED']}║                                                                              ║
-{COLORS['RED']}║         {COLORS['CYAN']}>>> ThunderSpan Elite Extreme -- by -- PHΛNTØM <<<{COLORS['RED']}         ║
+{COLORS['RED']}╔══════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+{COLORS['RED']}║                                                                                                          ║
+{COLORS['RED']}║  {COLORS['PURPLE']}████████╗██╗  ██╗███╗   ██╗██████╗ ███████╗███████╗███████╗{COLORS['RED']}            ║
+{COLORS['RED']}║  {COLORS['PURPLE']}╚══██╔══╝██║  ██║████╗  ██║██╔══██╗██╔════╝██╔════╝██╔════╝{COLORS['RED']}            ║
+{COLORS['RED']}║  {COLORS['PURPLE']}   ██║   ███████║██╔██╗ ██║██║  ██║█████╗  ███████╗███████╗{COLORS['RED']}            ║
+{COLORS['RED']}║  {COLORS['PURPLE']}   ██║   ██╔══██║██║╚██╗██║██║  ██║██╔══╝  ╚════██║╚════██║{COLORS['RED']}            ║
+{COLORS['RED']}║  {COLORS['PURPLE']}   ██║   ██║  ██║██║ ╚████║██████╔╝███████╗███████║███████║{COLORS['RED']}            ║
+{COLORS['RED']}║  {COLORS['PURPLE']}   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝╚══════╝╚══════╝{COLORS['RED']}            ║
+{COLORS['RED']}║  {COLORS['RED']}███████╗██╗     ██╗███████╗████████╗███████╗ {COLORS['CYAN']}███████╗{COLORS['RED']}     ║
+{COLORS['RED']}║  {COLORS['RED']}██╔════╝██║     ██║██╔════╝╚══██╔══╝██╔════╝ {COLORS['CYAN']}██╔════╝{COLORS['RED']}     ║
+{COLORS['RED']}║  {COLORS['RED']}█████╗  ██║     ██║█████╗     ██║   █████╗   {COLORS['CYAN']}█████╗  {COLORS['RED']}     ║
+{COLORS['RED']}║  {COLORS['RED']}██╔══╝  ██║     ██║██╔══╝     ██║   ██╔══╝   {COLORS['CYAN']}██╔══╝  {COLORS['RED']}     ║
+{COLORS['RED']}║  {COLORS['RED']}███████╗███████╗██║███████╗   ██║   ███████╗ {COLORS['CYAN']}███████╗{COLORS['RED']}     ║
+{COLORS['RED']}║  {COLORS['RED']}╚══════╝╚══════╝╚═╝╚══════╝   ╚═╝   ╚══════╝ {COLORS['CYAN']}╚══════╝{COLORS['RED']}     ║
+{COLORS['RED']}║                                                                                                          ║
+{COLORS['RED']}║         {COLORS['CYAN']}>>> ThunderSpan Elite Extreme -- by -- PHΛNTØM <<<{COLORS['RED']}                ║
 {COLORS['RED']}║     {COLORS['YELLOW']}Ultimate Multi-Vector Load Testing Tool (HTTP/TCP/UDP/ICMP/DNS){COLORS['RED']}     ║
-{COLORS['RED']}║                                                                              ║
-{COLORS['RED']}╚══════════════════════════════════════════════════════════════════════════════╝{COLORS['RESET']}
+{COLORS['RED']}║                                                                                                          ║
+{COLORS['RED']}╚══════════════════════════════════════════════════════════════════════════════════════════════════════════╝{COLORS['RESET']}
 """
     print(banner)
 
