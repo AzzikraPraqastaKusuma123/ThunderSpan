@@ -338,3 +338,5 @@ Kontribusi sangat kami hargai! Jika Anda ingin berkontribusi, silakan:
 Dibuat dengan ❤️ oleh PHΛNTØM - Untuk dunia siber yang lebih tangguh.
 
 </p>
+#   T h u n d e r S p a n - V 2  
+ 
